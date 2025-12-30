@@ -33,4 +33,8 @@ Video referansı: https://www.youtube.com/watch?v=ZKRgvEzq-2w
 
 ---
 
-## 📁 Proje Yapısı (örnek)
+## 🖼️ Uygulamadan Resimler
+<img width="486" height="493" alt="1" src="https://github.com/user-attachments/assets/43692bdc-3fd1-49e5-a4ef-144964b23e3f" />
+<img width="479" height="490" alt="4" src="https://github.com/user-attachments/assets/fde13098-1b95-476d-8435-6b63a523eb8c" />
+<img width="486" height="493" alt="3" src="https://github.com/user-attachments/assets/142600c3-0a1d-4ef5-aefc-a65313b91884" />
+<img width="486" height="493" alt="2" src="https://github.com/user-attachments/assets/3dd576ad-8d6d-47cf-8477-04674fabc7d8" />
