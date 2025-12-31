@@ -1,6 +1,6 @@
-# Hafta 12 - 10 Soru (Kısa Özet)
+# Hafta 12 - 10 Soru
 
-Bu repo/klasörde yer alan 10 sorunun her biri için kısa açıklama aşağıdadır.
+.
 
 1. **Soru 1 (`Bolum14-1`)**: GridPane üzerinde **4 adet bayrak görselini** (2x2) yerleştirip ekranda gösterir.
 2. **Soru 2 (`Bolum14-2`)**: **3x3 Tic-Tac-Toe** tahtası oluşturur; her hücreye rastgele **X / O / boş** yerleştirir.
@@ -12,3 +12,4 @@ Bu repo/klasörde yer alan 10 sorunun her biri için kısa açıklama aşağıda
 8. **Soru 8 (`Bolum14-8`)**: **10x10** boyutunda, her hücresi rastgele **0 veya 1** olan bir matris üretir (TextField ile görüntüler).
 9. **Soru 9 (`Bolum14-9`)**: GridPane içinde **2x2 düzeninde 4 adet Taichi (Yin-Yang)** şekli çizer.
 10. **Soru 10 (`Bolum14-10`)**: JavaFX şekilleriyle **silindir** çizimini oluşturur (pencere boyutuna göre ölçekli çizim).
+
