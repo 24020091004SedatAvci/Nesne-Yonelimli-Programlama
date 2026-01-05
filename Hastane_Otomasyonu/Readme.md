@@ -14,9 +14,11 @@ Sistem üç farklı kullanıcı tipi için özelleştirilmiş paneller sunar:
 
 1- 👨‍⚕️ Başhekim (Admin) Paneli
 
--Doktor Yönetimi: Sisteme yeni doktor ekleme, silme ve bilgilerini güncelleme.
--Poliklinik Yönetimi: Yeni poliklinik oluşturma ve düzenleme.
--Çalışan Atama: Doktorları ilgili polikliniklere atama işlemleri.
+Doktor Yönetimi: Sisteme yeni doktor ekleme, silme ve bilgilerini güncelleme.
+
+Poliklinik Yönetimi: Yeni poliklinik oluşturma ve düzenleme.
+
+Çalışan Atama: Doktorları ilgili polikliniklere atama işlemleri.
 
 <img width="736" height="493" alt="Ekran görüntüsü 2026-01-05 105222" src="https://github.com/user-attachments/assets/55cc0fdb-2fb3-4cac-bc6d-d963fec515da" />
 
@@ -42,27 +44,34 @@ Randevu Takibi: Alınan aktif randevuları görüntüleme.
 🛠️ Kullanılan Teknolojiler
 
 -Dil: Java (JDK 17+)
+
 -Arayüz (GUI): Java Swing & AW
+
 -Veritabanı: MySQL veya MariaDB
+
 -Veritabanı Bağlantısı: JDBC (Java Database Connectivity)
+
 -Tasarım Deseni: MVC (Model-View-Controller)
 
 ⚙️ Kurulum ve Çalıştırma
 
 -Projeyi kendi bilgisayarınızda çalıştırmak için aşağıdaki adımları izleyin:
+
 -Projeyi İndirin: Bu repoyu bilgisayarınıza klonlayın veya ZIP olarak indirin.
+
 -Veritabanını Oluşturun: MySQL veya HeidiSQL üzerinde hastane adında bir veritabanı oluşturun ve aşağıdaki SQL kodlarını çalıştırarak tabloları oluşturun:
+
 
 SQL
 
 -- Kullanıcı Tablosu
 CREATE TABLE `user` (
-  `id` int(11) NOT NULL AUTO_INCREMENT,
-  `tcno` varchar(11) NOT NULL,
-  `password` varchar(255) NOT NULL,
-  `name` varchar(255) NOT NULL,
-  `type` enum('bashekim','doktor','hasta') NOT NULL DEFAULT 'hasta',
-  PRIMARY KEY (`id`)
+-  `id` int(11) NOT NULL AUTO_INCREMENT,
+-  `tcno` varchar(11) NOT NULL,
+-  `password` varchar(255) NOT NULL,
+-  `name` varchar(255) NOT NULL,
+-  `type` enum('bashekim','doktor','hasta') NOT NULL DEFAULT 'hasta',
+-  PRIMARY KEY (`id`)
 );
 
 -- Poliklinik Tablosu
