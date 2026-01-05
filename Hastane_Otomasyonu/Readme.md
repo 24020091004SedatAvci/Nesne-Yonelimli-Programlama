@@ -83,15 +83,14 @@ CREATE TABLE `user` (
 -Veritabanı Bağlantısını Yapılandırın: Helper paketi altındaki DBConnection.java dosyasını açın ve kendi veritabanı bilgilerinizi girin:
 
 Java
-
-static final String DB_URL = "jdbc:mysql://localhost/hastane";
-static final String USER = "root"; // Kendi veritabanı kullanıcı adınız
-static final String PASS = "";     // Kendi şifreniz
-Projeyi Başlatın: View paketi altındaki LoginGUI.java dosyasına sağ tıklayıp Run diyerek uygulamayı başlatın.
+-static final String DB_URL = "jdbc:mysql://localhost/hastane";
+-static final String USER = "root"; // Kendi veritabanı kullanıcı adınız
+-static final String PASS = "";     // Kendi şifreniz
+-Projeyi Başlatın: View paketi altındaki LoginGUI.java dosyasına sağ tıklayıp Run diyerek uygulamayı başlatın.
 
 📝 Varsayılan Giriş Bilgileri
-Sistemi test etmek için veritabanına manuel olarak bir Başhekim ekleyebilirsiniz:
+-Sistemi test etmek için veritabanına manuel olarak bir Başhekim ekleyebilirsiniz:
 
-Tip: basHekim
-TC No: (Veritabanına eklediğiniz değer)
-Şifre: (Veritabanına eklediğiniz değer)
+-Tip: basHekim
+-TC No: (Veritabanına eklediğiniz değer)
+-Şifre: (Veritabanına eklediğiniz değer)
