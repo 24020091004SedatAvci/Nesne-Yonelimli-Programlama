@@ -1,4 +1,5 @@
-🏥 Hastane Yönetim Sistemi (Hospital Management System)
+🏥 Hastane Yönetim Sistemi 
+
 Bu proje, Java Swing arayüz kütüphanesi ve MySQL/MariaDB veritabanı kullanılarak geliştirilmiş kapsamlı bir hastane otomasyon sistemidir. Proje, MVC (Model-View-Controller) mimari yapısına uygun olarak tasarlanmıştır.
 
 🚀 Özellikler
