@@ -54,33 +54,33 @@ CREATE TABLE `user` (
 );
 
 -- Poliklinik Tablosu
-CREATE TABLE `clinic` (
-  `id` int(11) NOT NULL AUTO_INCREMENT,
-  `name` varchar(255) NOT NULL,
-  PRIMARY KEY (`id`)
+-CREATE TABLE `clinic` (
+-  `id` int(11) NOT NULL AUTO_INCREMENT,
+-  `name` varchar(255) NOT NULL,
+-  PRIMARY KEY (`id`)
 );
 
 -- Randevu (Appointment) Tablosu
-CREATE TABLE `appointment` (
-  `id` int(11) NOT NULL AUTO_INCREMENT,
-  `doctor_id` int(11) NOT NULL,
-  `doctor_name` varchar(255) DEFAULT NULL,
-  `hasta_id` int(11) NOT NULL,
-  `hasta_name` varchar(255) DEFAULT NULL,
-  `app_date` varchar(255) DEFAULT NULL,
-  PRIMARY KEY (`id`)
+-CREATE TABLE `appointment` (
+-  `id` int(11) NOT NULL AUTO_INCREMENT,
+-  `doctor_id` int(11) NOT NULL,
+-  `doctor_name` varchar(255) DEFAULT NULL,
+-  `hasta_id` int(11) NOT NULL,
+-  `hasta_name` varchar(255) DEFAULT NULL,
+-  `app_date` varchar(255) DEFAULT NULL,
+-  PRIMARY KEY (`id`)
 );
 
 -- Çalışma Saatleri (Whour) Tablosu
-CREATE TABLE `whour` (
-  `id` int(11) NOT NULL AUTO_INCREMENT,
-  `doctor_id` int(11) NOT NULL,
-  `doctor_name` varchar(255) DEFAULT NULL,
-  `wdate` varchar(255) DEFAULT NULL,
-  `status` enum('a','p') DEFAULT 'a',
-  PRIMARY KEY (`id`)
+-CREATE TABLE `whour` (
+-  `id` int(11) NOT NULL AUTO_INCREMENT,
+-  `doctor_id` int(11) NOT NULL,
+-  `doctor_name` varchar(255) DEFAULT NULL,
+-  `wdate` varchar(255) DEFAULT NULL,
+-  `status` enum('a','p') DEFAULT 'a',
+-  PRIMARY KEY (`id`)
 );
-Veritabanı Bağlantısını Yapılandırın: Helper paketi altındaki DBConnection.java dosyasını açın ve kendi veritabanı bilgilerinizi girin:
+-Veritabanı Bağlantısını Yapılandırın: Helper paketi altındaki DBConnection.java dosyasını açın ve kendi veritabanı bilgilerinizi girin:
 
 Java
 
